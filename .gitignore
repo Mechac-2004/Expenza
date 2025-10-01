@@ -1,0 +1,41 @@
+# Fichiers Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pdb
+*.egg-info/
+*.egg
+
+# Environnements virtuels
+.env
+.venv
+env/
+venv/
+ENV/
+Pipfile.lock
+poetry.lock
+
+# Paramètres Django
+*.log
+*.pot
+*.pyc
+db.sqlite3
+media/
+staticfiles/
+local_settings.py
+
+# VSCode / IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Système
+.DS_Store
+Thumbs.db
+
+# Node (si tu utilises aussi npm/yarn dans ton projet Django pour du front)
+node_modules/
+npm-debug.log
+yarn-error.log
